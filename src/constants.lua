@@ -1,0 +1,31 @@
+--local BACKGROUND_SCROLL_SPEED = 0
+--local FOREGROUND_SCROLL_SPEED = 30
+MOUNTAIN_FAR_SCROLL_SPEED = 0
+MOUNTAINS_SCROLL_SPEED = 15
+--local TREES_SCROLL_SPEED = 45
+
+BACKGROUND_LOOPING_POINT = 413--413
+--local FOREGROUND_LOOPING_POINT = 413
+MOUNTAIN_FAR_LOOPING_POINT = 0
+MOUNTAINS_LOOPING_POINT = 271
+--local TREES_LOOPING_POINT = 413
+
+-- global variable we can use to scroll the map
+scrolling = false--true
+
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+
+-- virtual resolution dimensions
+VIRTUAL_WIDTH = 270
+VIRTUAL_HEIGHT = 160
+
+mountainsScroll = 0
+mountainFarScroll = 0
+
+PLAYER_WALK_SPEED = 60
+
+-- player jumping velocity
+
+ROCK_SCROLL = -130
+PLAYER_JUMP_VELOCITY = -130
