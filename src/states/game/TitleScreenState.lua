@@ -17,7 +17,7 @@ function TitleScreenState:render()
     love.graphics.setFont(gFonts['large'])
     
     
-    love.graphics.printf('Random Game', 0, 64, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Some Random Game', 0, 64, VIRTUAL_WIDTH, 'center')
 
     love.graphics.setFont(gFonts['medium'])
     love.graphics.printf('Press Enter', 0, 100, VIRTUAL_WIDTH, 'center')
